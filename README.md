@@ -1,7 +1,7 @@
 #### Email Preprocessor API
 
 ### Usage
-Email Preprocessor API requires minimum python 3.8.8
+Email Preprocessor API requires python 3.6.8
 ```bash
     https://www.python.org/ftp/python/3.6.8/python-3.6.8-macosx10.6.pkg
 ```
