@@ -1,0 +1,11 @@
+version: '2.3'
+
+services:
+    email-processor:
+        image: email-processor
+        restart: always
+        command: ./run_app.sh
+        environment:
+            FLASK_ENV: dev
+        ports:
+        - 8080:8080
